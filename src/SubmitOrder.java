@@ -22,19 +22,19 @@ public class SubmitOrder implements CommandInterface {
         while(choice!=0) {
             switch(choice) {
                 case 1:
-                    a.getOrders().addOrders(new MenuItem(1,"Chicken Sandwich", 12.23));
+                    a.getOrders().addOrders(new MenuItem(0,"Chicken Sandwich", 12.23));
                     break;
                 case 2:
-                    a.getOrders().addOrders(new MenuItem(2,"Rib eye Steak",  19.95));
+                    a.getOrders().addOrders(new MenuItem(1,"Rib eye Steak",  19.95));
                     break;
                 case 3:
-                    a.getOrders().addOrders(new MenuItem(3,"Fries",  3.00));
+                    a.getOrders().addOrders(new MenuItem(2,"Fries",  3.00));
                     break;
                 case 4:
-                    a.getOrders().addOrders(new MenuItem(4,"Vegetable salad", 4.00));
+                    a.getOrders().addOrders(new MenuItem(3,"Vegetable salad", 4.00));
                     break;
                 case 5:
-                    a.getOrders().addOrders(new MenuItem(5,"Ice cream",  3.00));
+                    a.getOrders().addOrders(new MenuItem(4,"Ice cream",  3.00));
                     break;
             }
             a.getMenu().print();

@@ -22,7 +22,9 @@ public class Main {
                     break;
                 //Case 3 iterates over main dish items in the Menu objects.
                 case 3:
+                    calltrailer();
                     SystemInterface.getTab();
+
                     break;
                 //Case 4 iterates over the desert items in the Menu object.
             }
@@ -56,5 +58,8 @@ public class Main {
             choice = getInt(input, min, max);
         }
         return choice;
+    }
+    public static void calltrailer(){
+        System.out.println("Welcome to steakhouse");
     }
 }

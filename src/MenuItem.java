@@ -3,7 +3,6 @@ public class MenuItem {
     private int menuNum;
     private String itemDescription;
     private double itemPrice;
-    private int classification;
 
     public MenuItem(int menuNum, String itemDescription, double itemPrice) {
         this.menuNum = menuNum;
